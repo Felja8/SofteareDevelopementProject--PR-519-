@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+  padding: 2em;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#task-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+  background-color: white;
+  padding: 0.5em;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#task-list input[type="text"] {
+  flex: 1;
+  border: none;
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+#task-list input[type="text"]:focus {
+  outline: none;
+}
+
+.checkmark {
+  width: 20px;
+  height: 20px;
+  margin-right: 1em;
+  background-color: white;
+  border: 2px solid #467599;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.checkmark.completed {
+  background-color: #8fd19e;
+  color: white;
+}
+
+.checkmark.completed::after {
+  content: '✓';
+  font-size: 1em;
+}

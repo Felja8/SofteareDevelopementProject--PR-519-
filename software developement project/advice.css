@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  color: #333;
+}
+
+.container {
+  padding: 2em;
+  max-width: 800px;
+  margin: 20px;
+  overflow-y: auto;
+  text-align: left;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.intro {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+  color: #555;
+}
+
+.description {
+  font-size: 1em;
+  margin-bottom: 1em;
+  color: #555;
+}
+
+.follow-us {
+  font-size: 1em;
+  margin: 1em 0;
+  font-weight: bold;
+  color: #467599;
+  text-align: center;
+}
+
+.advice-section {
+  margin-bottom: 2em;
+}
+
+.advice-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  color: #333;
+}
+
+.advice-section p {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 0.5em;
+}
+
+.conclusion {
+  font-size: 1em;
+  margin-top: 2em;
+  color: #555;
+}
